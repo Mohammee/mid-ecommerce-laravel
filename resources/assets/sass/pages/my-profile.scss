@@ -1,0 +1,36 @@
+.my-profile{
+
+    lable{
+        display: block;
+    }
+
+    .form-control{
+        margin-bottom: 30px;
+    }
+
+    input{
+        border: 1px solid $text-color-light;
+        padding: 16px 10px;
+        border-radius: 5px;
+        width: 66.66%;
+        font-size: 14px;
+    }
+
+     .password-hint{
+         font-size: 14px;
+         font-weight: 500;
+     }
+
+    .update-profile-button{
+        background: $text-color;
+        color: $white;
+        border-radius: 5px;
+        padding: 12px 50px  ;
+
+          &:hover{
+             background: lighten($text-color , 10%);
+          }
+
+    }
+
+}

@@ -1,0 +1,44 @@
+.my-orders{
+
+    .orders-container{
+        margin-bottom: 64px;
+    }
+
+    .orders-header{
+        background: #f6f6f6f6;
+        border: 1px solid #DDDDDDDD;
+        padding:14px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .orders-products{
+        border: 1px solid #DDDDDDDD;
+        background: white;
+        padding:14px;
+        border-top: none;
+    }
+
+    .order-header-item{
+        display: flex;
+
+            div {
+                margin-right: 14px;
+            }
+    }
+    .order-product-item {
+        display: flex;
+        margin: 32px 0;
+
+         img {
+             margin-right: 5px;
+             max-width: 140px;
+             max-height: 40px;
+         }
+    }
+
+       tr {
+           border-bottom: 1px solid #DDDDDDDD;
+       }
+}

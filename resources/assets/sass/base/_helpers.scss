@@ -1,0 +1,21 @@
+.clearfix::after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+
+  .container {
+    margin: auto;
+    max-width: 1100px;
+  }
+
+strong {
+    font-weight: 700 !important;
+}
+.font-bold {
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}

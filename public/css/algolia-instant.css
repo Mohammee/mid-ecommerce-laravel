@@ -1,0 +1,15 @@
+
+.ais-ClearRefinements { margin: 1em 0; }
+.ais-SearchBox { margin: 5px 0;max-width: 400px }
+.ais-Pagination { margin-top: 1em; }
+.left-panel { float: left; width: 250px; }
+.right-panel { margin-left: 350px; }
+.ais-InstantSearch { max-width: 960px; overflow: hidden; margin: 0 auto; }
+.ais-Hits-item {display: flex; justify-content: space-between}
+.ais-Hits-item img { margin-right: 1em; max-width: 70px }
+.hit-name { margin-bottom: 0.5em; }
+.hit-description { color: #888; font-size: 14px; margin-bottom: 0.5em; }
+.ais-Stats-text { color: #888; font-size: 14px; margin-bottom: 0.5em; }
+.hit-name{ margin-bottom: 8px}
+.ais-RefinementList-item{ color: blue}
+.ais-RefinementList-item ais-RefinementList-item--selected{color: darkblue}
